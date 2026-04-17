@@ -12,4 +12,10 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <build>
+        <!-- tell maven where your code actually is -->
+        <sourceDirectory>main</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+    </build>
 </project>
